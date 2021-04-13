@@ -1,0 +1,28 @@
+body{
+    height: 100%;
+}
+
+.radio-md{
+    width: 34px;
+    height: 34px;
+}
+
+label{
+    color: darkgray;
+}
+
+#wrapper #content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.radio-danger input[type="radio"] + label::after {
+    background-color: #d9534f;
+}
+.radio-danger input[type="radio"]:checked + label::before {
+    border-color: #d9534f;
+}
+.radio-danger input[type="radio"]:checked + label::after {
+    background-color: #d9534f;
+}
