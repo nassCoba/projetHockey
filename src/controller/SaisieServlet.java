@@ -57,7 +57,7 @@ public class SaisieServlet extends HttpServlet {
 		System.out.println("zoneArret : "+zoneArret);
 		System.out.println("but : "+but);
 		PrintWriter outPrintWriter = response.getWriter();
-		//outPrintWriter.print("Enregistrement reussit");
+		outPrintWriter.print("Enregistrement reussit");
 	}
 
 }
